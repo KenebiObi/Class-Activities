@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(120, 10, 153);
+    color: #000000;
+}
+#pic{
+    height: 100px;
+    width: 100px;
+    
+}
+#head_text{
+    background-color: aqua;
+    margin: 0px 0px 0px 100px;
+    padding: 10px;
+    text-align: center;
+    height: 100px;
+    position: sticky;
+    /* top:100vh; */
+
+    bottom: 0;
+    left: 30%;
+    /* visibility: hidden; */
+    display: none;
+    /* right: 20%; */
+    width: 100px;
+    /* border:black dotted 2px; */
+    border-bottom: black dotted 2px;
+}
+
+#div-element{
+   height: 500px;
+   width: 50%;
+   border:black dotted 2px;
+   position: absolute;
+   top: 20%;
+    border-radius: 20px;
+   background-color: blue;
+}

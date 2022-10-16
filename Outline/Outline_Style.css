@@ -1,0 +1,65 @@
+p{
+    border: 2px solid red;
+    /* border-style: solid;
+    border-color: red; */
+    /* outline-style:  dotted ;
+    outline-color: blue;
+    outline-width: thin; */
+    outline:  10px  blue;
+    font-size: xx-large ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    background-color: blue;
+    text-align: center;
+    max-width: 500px;
+}
+button{
+    background-color: cornflowerblue;
+    color: white;
+    border: 2px solid blue ;
+    border-radius: 30%;
+    padding: 10px;
+}
+button:hover{
+    background-color: red;
+    color: blue;
+}
+#btn{
+    /* text-decoration: dotted crimson; */
+    text-decoration:none; /*this is used to decorate a text or link */
+    color: blueviolet;
+    font-size: x-large;
+
+}
+#btn:hover{
+    /* background-color: red; */
+    color: red;
+}
+.Ordered_list{
+    list-style-type: upper-roman;/* this is used to remove the style type of a list*/
+    /* background-color: aqua;
+    list-style-position: outside; */
+    /* list-style: inside url(./MyIcon.ico); */
+    /* list-style: inside; */
+    background-color: blueviolet;
+    padding: 20px;
+    max-width: 300px;
+}
+.Ordered_list li{
+    background-color: rgb(146, 160, 95);
+    padding: 5px;
+    color: aliceblue;
+    margin-left: 35px;
+    margin-right: 35px;
+    /* width: 50%; */
+}
+.Unorderedlist{
+    /* list-style-type: circle; */
+    list-style-image: url("./MyIcon.ico");/*This is used for 
+    adding images or icons to your unordered list*/
+    list-style-position: inside;
+}
+.Unorderedlist li{
+    display: inline;
+    /* visibility: hidden; */
+}
